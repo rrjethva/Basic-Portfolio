@@ -52,6 +52,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 h1 {
   color: #4aaaa5;
+  text-align: left;
 }
 
 .container2 {
@@ -98,3 +99,70 @@ h3 {
   color: #4aaaa5;
   font-weight: bolder;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 0px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 35%;
+  height: 35%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  float: left;
+  width: 35%;
+  height: 35%;
+  padding: 10px;
+}
+
+.column2 img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+  h2 {
+    text-align: left;
+    color: #4aaaa5;
+  }
+
+  .container3 {
+    align-content: center;
+    height: 620px;
+    width: 960px;
+    background: white;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
