@@ -179,17 +179,28 @@ body {
 
   .container {
     position: relative;
-  }
-  
+  }  
 
   .text-block {
     position: relative;
-    bottom: 60px;
-    right: 20px;
-    background-color: #4aaaa5;
-    color: white;
+    bottom: 47px;
+    right:-15px;
+   color: white;
+   background-color: #4aaaa5;
     padding-left: 20px;
     padding-right: 20px;
   text-align: center;
-  block-size: 50%;
+  block-size: auto;
+writing-mode: horizontal-tb;
+width: 40%;
   }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+ } 
